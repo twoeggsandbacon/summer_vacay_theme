@@ -785,7 +785,7 @@
         },
         {
             "name": "roots/sage-lib",
-            "version": "9.0.4",
+            "version": "9.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/roots/sage-lib.git",
@@ -1171,16 +1171,16 @@
         },
         {
             "name": "roots/sage-installer",
-            "version": "1.4.2",
+            "version": "1.4.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/roots/sage-installer.git",
-                "reference": "5906db283b5b0a6117d87e2cc971afb9a66b135d"
+                "reference": "290e17d20da6566eda339f1ee448ada4a9bc3b1d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/roots/sage-installer/zipball/5906db283b5b0a6117d87e2cc971afb9a66b135d",
-                "reference": "5906db283b5b0a6117d87e2cc971afb9a66b135d",
+                "url": "https://api.github.com/repos/roots/sage-installer/zipball/290e17d20da6566eda339f1ee448ada4a9bc3b1d",
+                "reference": "290e17d20da6566eda339f1ee448ada4a9bc3b1d",
                 "shasum": ""
             },
             "require": {
@@ -1226,7 +1226,7 @@
                 "theme",
                 "wordpress"
             ],
-            "time": "2018-08-24T00:01:10+00:00"
+            "time": "2018-09-17T17:09:42+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
