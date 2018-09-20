@@ -4,9 +4,17 @@
 
 @extends('layouts.app')
 
+<div>
 @section('content')
+  <div id="wrapper">
   @while(have_posts()) @php the_post() @endphp
     @include('partials.page-header')
-    @include('partials.content-page')
+    <div id="smallwrapper">
+      @include('partials.content-page')
+      <h2 id="about">This is meaningful content about our company</h2>
+    </div>
   @endwhile
+  </div>
 @endsection
+</div>
+
