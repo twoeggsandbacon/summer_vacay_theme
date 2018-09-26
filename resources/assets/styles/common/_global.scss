@@ -1,7 +1,31 @@
 body {
-  background-color: #53b7bb;
+  font-size: 1.5em;
+  font-family: arial, sans-serif;
+  line-height: 180%;
+  margin: 1px;
 }
 
-#small {
-  color: rgb(241, 239, 239);
+.description {
+  background-color: white;
+  position: relative;
+  z-index: 0;
+}
+
+#mainwrapper {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  max-width: 9999px;
+  background-image: url("../images/sycamore.jpg");
+  position: relative;
+  z-index: -1;
+}
+
+.title {
+  text-align: center;
+  padding: 30px;
+}
+
+.container {
+  padding: 0 !important;
+  max-width: 9999999px !important;
 }
