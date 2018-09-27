@@ -1,28 +1,31 @@
+/* use padding instead of margin! */
+
 body {
   font-size: 1.5em;
-  font-family: arial, sans-serif;
+  font-family: "arial", sans-serif;
   line-height: 180%;
   margin: 1px;
 }
 
 .description {
-  background-color: white;
-  position: relative;
-  z-index: 0;
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 #mainwrapper {
   padding-top: 50px;
   padding-bottom: 50px;
   max-width: 9999px;
-  background-image: url("../images/sycamore.jpg");
-  position: relative;
-  z-index: -1;
+  background-image: url("../images/sycamoresmaller.jpg");
 }
 
 .title {
   text-align: center;
   padding: 30px;
+}
+
+.containers {
+  padding-left: 200px;
+  padding-right: 200px;
 }
 
 .container {
