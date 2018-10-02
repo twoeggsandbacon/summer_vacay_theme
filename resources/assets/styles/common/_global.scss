@@ -8,27 +8,46 @@ body {
 }
 
 .description {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.75);
 }
 
 #mainwrapper {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 100px;
+  padding-bottom: 100px;
   max-width: 9999px;
-  background-image: url("../images/sycamoresmaller.jpg");
+  height: 3259px;
+  background-image: url("../images/thinsycamore.jpg");
 }
 
 .title {
   text-align: center;
-  padding: 30px;
-}
-
-.containers {
-  padding-left: 200px;
-  padding-right: 200px;
+  padding: 50px;
+  background-color: rgba(255, 255, 255, 0.75);
 }
 
 .container {
   padding: 0 !important;
-  max-width: 9999999px !important;
+  max-width: 999999px !important;
+}
+
+.active,
+.title:hover {
+  background-color: rgba(102, 102, 102, 0.75);
+  color: white;
+}
+
+.banner {
+  position: absolute;
+  top: -9999999px;
+  right: -9999999px;
+}
+
+#navigation {
+  height: 400px;
+  width: 600px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-left: -300px;
+  margin-top: -200px;
 }
